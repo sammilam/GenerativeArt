@@ -1,11 +1,43 @@
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 45px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+
 body {
+    font-family: "puffin-arcade-regular", sans-serif;
+    font-size: 3vh;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+/* text */
+h1 {
+    font-family: "puffin-arcade-nerf", sans-serif;
+    font-size: 5vh;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+.center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
