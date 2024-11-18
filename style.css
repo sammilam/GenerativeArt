@@ -41,3 +41,10 @@ p {
     align-items: center;
     margin-top: 20px;
 }
+
+.diagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
