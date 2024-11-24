@@ -1,6 +1,6 @@
 // variables
 let table;
-let palette = 2;
+let palette = 3;
 // goal: calming day to learn truchet tile!
 // it turns and make different patterns
 // https://www.youtube.com/watch?v=99Hr8lpWWSg&ab_channel=Steve%27sMakerspace

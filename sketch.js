@@ -10,7 +10,7 @@ function setup() {
     background(220);
     colorMode(HSB, 360, 100, 100, 255);
     textSize(20);
-    for (i = 0; i < 6; i++) { //increase this number as you add palettes
+    for (i = 0; i < 10; i++) { //increase this number as you add palettes
         fill(0);
         text(i, 8, i * 60 + 35);
         for (j = 0; j < 5; j++) {

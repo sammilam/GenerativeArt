@@ -65,8 +65,6 @@ function burst(x, y, radius) {
 }
 
 
-
-
 // gets colours from palette
 function getColor(col1) {
     h = int(table.get(palette, col1 * 3));
