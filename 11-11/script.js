@@ -1,6 +1,10 @@
 // variables
 let r;
 let rows, cols; // Number of rows and columns
+let isLooping = false; // Boolean to track looping state
+
+
+
 // goal: Took orbitcontrol() and find out how it can provide opportunities to scale in and out of patterns. 
 // Mood : STRESSED!!! jumble of ideas popping in my mind, red and black that scream at me
 
@@ -73,9 +77,13 @@ function keyPressed() {
 
 // Change colors when the mouse is pressed
 function mousePressed() {
-    // r = random(0,255);
-    console.log("pressed",);
-
+    if (isLooping) {
+        noLoop();
+        console.log("Loop stopped");
+    } else {
+        loop();
+        console.log("Loop started");
+    }
+    isLooping = !isLooping; // Toggle the state
 }
-
 
