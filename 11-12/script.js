@@ -7,7 +7,7 @@ let scaleFactor = 1; // Factor for zooming in/out
 // credit to https://editor.p5js.org/StevesMakerspace/sketches/Y8RWi6DO5 
 
 function preload() {
-    table = loadTable("/colors.csv", "csv", "header");
+    table = loadTable("../colors.csv", "csv", "header");
 }
 
 
