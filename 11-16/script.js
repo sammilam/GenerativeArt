@@ -7,7 +7,7 @@ let palette = 3;
 
 
 function preload() {
-    table = loadTable("/colors.csv", "csv", "header");
+    table = loadTable("../colors.csv", "csv", "header");
 }
 
 // basic setup before loading in

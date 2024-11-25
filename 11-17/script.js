@@ -6,7 +6,7 @@ let h, s, b;  // Store HSB values for color
 // goal: Today, I am stressed/anxious and scared.
 
 function preload() {
-    table = loadTable("/colors.csv", "csv", "header");
+    table = loadTable("../colors.csv", "csv", "header");
 }
 
 // basic setup before loading in

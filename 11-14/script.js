@@ -8,7 +8,7 @@ let rotationAngle = 0; // Global rotation angle in radians
 // goal: I am so tired. Everything is the same. 
 
 function preload() {
-    table = loadTable("/colors.csv", "csv", "header");
+    table = loadTable("../colors.csv", "csv", "header");
 }
 
 // basic setup before loading in

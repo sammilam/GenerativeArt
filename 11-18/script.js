@@ -7,7 +7,7 @@ let colSize; let rowSize;
 // thank you https://www.youtube.com/watch?v=UKxB2j4h7Ag&list=PL0beHPVMklwh3KNAibTZKkHjN4xILaWvE&index=34&ab_channel=PattVira
 
 function preload() {
-    table = loadTable("/colors.csv", "csv", "header");
+    table = loadTable("../colors.csv", "csv", "header");
 }
 
 // basic setup before loading in

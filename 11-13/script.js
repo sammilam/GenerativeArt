@@ -5,7 +5,7 @@ let table;
 // referenced from this: https://editor.p5js.org/StevesMakerspace/sketches/4b2MKfqij
 
 function preload() {
-    table = loadTable("/colors.csv", "csv", "header");
+    table = loadTable("../colors.csv", "csv", "header");
 }
 
 // basic setup before loading in
