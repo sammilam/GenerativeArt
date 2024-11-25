@@ -48,7 +48,7 @@ function draw() {
 
 // grids around 
 function lines() {
-    for (var x = 0; x < width; x += width / 20) {
+    for (var x = 0; x < width; x += width / 5) {
         for (var y = 0; y < height; y += height / 20) {
             fill(255, random(255), random(0, 50));
             square(x, y, 20);
