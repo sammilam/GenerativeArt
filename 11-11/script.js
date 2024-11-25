@@ -11,7 +11,7 @@ function setup() {
     angleMode(DEGREES);
     c.parent("canvas-container"); // Place the canvas inside the container div
     background(random(0, 255));
-
+    noLoop();
     console.log("Canvas created and parented."); // Check if this message appears
 }
 
