@@ -12,6 +12,11 @@ body {
     font-weight: 800;
     font-style: normal;
 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 /* text */
@@ -35,11 +40,21 @@ p {
     align-items: center;
 }
 
+.canvas-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* Adds space between canvases */
+
+}
+
 .canvas-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+
 }
 
 .diagram {
