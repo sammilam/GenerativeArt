@@ -37,7 +37,7 @@ function sketch1(p) {
 
     // Preload the color table
     p.preload = function () {
-        table = p.loadTable("../colors.csv", "csv", "header");
+        table = p.loadTable("colors.csv", "csv", "header");
     };
 
     // Setup the canvas and initial grid parameters
@@ -115,7 +115,7 @@ function sketch2(p) {
 
     // Preload the color table
     p.preload = function () {
-        table = p.loadTable("../colors.csv", "csv", "header");
+        table = p.loadTable("colors.csv", "csv", "header");
     };
 
     // Setup the canvas and initial settings
@@ -185,7 +185,7 @@ function sketch3(p) {
 
     // Preload the color table
     p.preload = function () {
-        table = p.loadTable("../colors.csv", "csv", "header");
+        table = p.loadTable("colors.csv", "csv", "header");
     };
 
     // Setup the canvas and initial parameters
@@ -267,7 +267,7 @@ function sketch4(p) {
         p.randomizeSquiggly(); // Randomize the initial squiggly parameters
     };
 
-    // Empty draw function, we trigger everything via mousePressed()
+    // Empty draw function, trigger everything via mousePressed()
     p.draw = function () {
         // No continuous loop
     };
